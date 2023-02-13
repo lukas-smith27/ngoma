@@ -1,5 +1,5 @@
 # ngoma
 
-Web page for a non-profit organization called Ngoma Centers, Inc.
+This is a website for a non-profit organization called Ngoma Centers, Inc.
 
-*Work in progress*
+*This is currently a work in progress*
