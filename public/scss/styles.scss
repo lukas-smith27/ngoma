@@ -159,19 +159,93 @@
     background-color: rgb(249, 191, 81);
 }
 
-.options-container {
+.optionsContainer {
     display: flex;
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     height: auto;
 }
 
 .options {
+    margin-top: 50px;
     height: 150px;
-    margin: auto auto;
+    margin: 0 auto;
 }
 
-.divider {
-    border-left: 2px solid rgb(255, 255, 255);
-    height: auto;
+.options ul {
+    margin-top: 50px;
+    margin: 0 auto;
+    list-style: none;
+    text-decoration: none;
+}
+
+.options ul li {
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.options a {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.homeInformation{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.homeInformation p {
+    text-align: justify center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.emailList {
+    width: 40%;
+    margin: 0 auto;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.emailList p {
+    text-align: center;
+}
+
+.inputRowEmail {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#emailAddress {
+    width: 70%;
+    height: 30px;
+    font-size: 25px;
+}
+
+#emailListSubmit {
+    background-color: rgb(249, 191, 81);
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 130px;
+    font-size: 16px;
+}
+
+
+/*//////////////////////////// Footer /// ////////////////////////*/
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.linksContainer {
+    display: flex;
+    width: 60%;
 }
