@@ -5,6 +5,7 @@ $(document).ready(function(){
     history.pushState({page: 3}, "../public/wickerFamily.html")
     history.pushState({page: 4}, "../public/projects.html")
     history.pushState({page: 5}, "../public/womenChildren.html")
+    history.pushState({page: 5}, "../public/youthProjects.html")
 
     $(window).load("../public/home.html")
 
@@ -23,12 +24,22 @@ $(document).ready(function(){
         window.location.replace(url)
     })
 
+    $("#aboutHome").click(function(){
+        url = "../public/about.html"
+        window.location.replace(url)
+    })
+
     $(".wickerFamilyTop").click(function(){
         url = "../public/wickerFamily.html"
         window.location.replace(url)
     })
 
     $(".projectsTop").click(function(){
+        url = "../public/projects.html"
+        window.location.replace(url)
+    })
+
+    $("#projectsHome").click(function(){
         url = "../public/projects.html"
         window.location.replace(url)
     })
@@ -40,6 +51,16 @@ $(document).ready(function(){
 
     $(".womenChildren").click(function(){
         url = "../public/womenChildren.html"
+        window.location.replace(url)
+    })
+
+    $(".youthTop").click(function(){
+        url = "../public/youthProjects.html"
+        window.location.replace(url)
+    })
+
+    $(".youth").click(function(){
+        url = "../public/youthProjects.html"
         window.location.replace(url)
     })
 
