@@ -1,6 +1,8 @@
 $(document).ready(function(){
 
     history.pushState({page: 1}, "../public/home.html")
+    history.pushState({page: 2}, "../public/about.html")
+    history.pushState({page: 3}, "../public/wickerFamily.html")
 
     $(window).load("../public/home.html")
 
@@ -14,7 +16,17 @@ $(document).ready(function(){
         window.location.replace(url)
     })
 
+    $(".auTop").click(function(){
+        url = "../public/about.html"
+        window.location.replace(url)
+    })
 
+    $(".wickerFamilyTop").click(function(){
+        url = "../public/wickerFamily.html"
+        window.location.replace(url)
+    })
+
+    // Menu Bars when screen is under X amount of pixels
     $(".small-menu").click(function(){
         if (!$(".links").hasClass("active")) {
             $(".links").addClass("active")

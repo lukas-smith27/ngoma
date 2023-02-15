@@ -1,5 +1,6 @@
 /*////////////////// Page Headers /////////////////*/
 .navigation-bar {
+  top: 0;
   position: relative;
   width: 100%;
   display: flex;
@@ -56,14 +57,15 @@
   z-index: 1;
   position: absolute;
   display: none;
-  width: 100%;
+  width: 150%;
   background: rgb(136, 178, 53);
   overflow: hidden;
 }
 
-.links li ul li {
+.links li ul li a {
   z-index: 1;
   text-align: center;
+  font-size: 20px;
 }
 
 .links li:hover ul {
@@ -204,10 +206,13 @@
   width: 40%;
   margin: 0 auto;
   border: 3px solid rgb(0, 0, 0);
+  margin-bottom: 20px;
 }
 
 .emailList p {
   text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
 .inputRowEmail {
@@ -232,14 +237,172 @@
   font-size: 16px;
 }
 
+@media (max-width: 1000px) {
+  .background img {
+    height: 300px;
+  }
+  .optionsContainer {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .options ul {
+    text-align: left;
+    margin-left: 0;
+  }
+  .options a {
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .emailList {
+    width: 80%;
+  }
+}
+/*/////////////////////////// About Ngoma Page ////////////////////////*/
+.aboutBackground img {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.aboutContent {
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 20px;
+  height: auto;
+  width: 55%;
+  background-color: rgba(234, 234, 234, 0.5);
+}
+
+.aboutBar {
+  margin: 0 auto;
+  margin-top: 2%;
+  height: 50px;
+  background-color: rgb(249, 191, 81);
+  width: 100%;
+}
+
+.aboutContent h1 {
+  padding-left: 1%;
+  text-align: left;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.aboutContent p {
+  font-family: sans-serif;
+  padding-left: 1%;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.aboutContent img {
+  display: block;
+  margin: 0 auto;
+  justify-self: center;
+  width: 75%;
+}
+
+@media (max-width: 1000px) {
+  .aboutContent {
+    width: 75%;
+  }
+}
+/*/////////////////////////// Wicker Page ///////////////////////*/
+.wickerContent {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.wickerContent img {
+  width: 100%;
+  height: 50%;
+}
+
+.wickerContent h1 {
+  padding-left: 1%;
+  text-align: left;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.wickerContent p {
+  font-family: sans-serif;
+  padding-left: 1%;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .wickerContent {
+    width: 75%;
+  }
+}
 /*//////////////////////////// Footer /// ////////////////////////*/
 footer {
+  position: relative;
   width: 100%;
+  height: 150px;
   bottom: 0;
   background-color: rgb(0, 0, 0);
 }
 
 .linksContainer {
+  margin: 0 auto;
   display: flex;
-  width: 60%;
+  width: 50%;
+  align-content: center;
+}
+
+.bottomLinks {
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.bottomLinks ul {
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.bottomLinks ul li {
+  list-style: none;
+}
+
+#linksLabel {
+  font-family: sans-serif;
+}
+
+.bottomLinks a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#socialLink {
+  padding-left: 10%;
+}
+
+@media (max-width: 1000px) {
+  .linksContainer {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .bottomLinks {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  .bottomLinks ul {
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 17px;
+  }
+  .bottomLinks ul li {
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=styles.css.map */
