@@ -4,6 +4,7 @@ $(document).ready(function(){
     history.pushState({page: 2}, "../public/about.html")
     history.pushState({page: 3}, "../public/wickerFamily.html")
     history.pushState({page: 4}, "../public/projects.html")
+    history.pushState({page: 5}, "../public/womenChildren.html")
 
     $(window).load("../public/home.html")
 
@@ -17,7 +18,7 @@ $(document).ready(function(){
         window.location.replace(url)
     })
 
-    $(".auTop").click(function(){
+    $(".aboutTop").click(function(){
         url = "../public/about.html"
         window.location.replace(url)
     })
@@ -29,6 +30,16 @@ $(document).ready(function(){
 
     $(".projectsTop").click(function(){
         url = "../public/projects.html"
+        window.location.replace(url)
+    })
+
+    $(".womenChildrenTop").click(function(){
+        url = "../public/womenChildren.html"
+        window.location.replace(url)
+    })
+
+    $(".womenChildren").click(function(){
+        url = "../public/womenChildren.html"
         window.location.replace(url)
     })
 

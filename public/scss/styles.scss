@@ -1,5 +1,7 @@
 //Start of Ngoma Styling
-
+body {
+  background-color: rgb(234, 234, 234);
+}
 /*////////////////// Page Headers /////////////////*/
 .navigation-bar {
   top: 0;
@@ -490,10 +492,65 @@
 }
 
 /*/////////////////////// Women/Children Page //////////////////*/
+.womenChildrenBackground img {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  opacity: .4;
+}
 
+.womenChildrenContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  height: auto;
+  width: 55%;
+  background-color: rgb(234, 234, 234, .75);
+}
 
+#img1 {
+  display: block;
+  margin: 0 auto;
+  height: 550px;
+  padding-bottom: 20px;
+}
+#img2 {
+  display: block;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 75%;
+  height: 400px;
+  padding-bottom: 20px;
+}
 
+.womenChildrenContent h1 {
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+  text-align: left;
+  font-size: 30px;
+  font-family: sans-serif;
+}
 
+.womenChildrenContent p {
+  font-family: sans-serif;
+  padding-right: 2%;
+  padding-left: 2%;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .womenChildrenContent {
+    width: 75%;
+  }
+}
 /*//////////////////////////// Footer ///////////////////////////*/
 
 footer {
