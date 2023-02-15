@@ -3,6 +3,7 @@ $(document).ready(function(){
     history.pushState({page: 1}, "../public/home.html")
     history.pushState({page: 2}, "../public/about.html")
     history.pushState({page: 3}, "../public/wickerFamily.html")
+    history.pushState({page: 4}, "../public/projects.html")
 
     $(window).load("../public/home.html")
 
@@ -23,6 +24,11 @@ $(document).ready(function(){
 
     $(".wickerFamilyTop").click(function(){
         url = "../public/wickerFamily.html"
+        window.location.replace(url)
+    })
+
+    $(".projectsTop").click(function(){
+        url = "../public/projects.html"
         window.location.replace(url)
     })
 
