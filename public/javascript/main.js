@@ -5,8 +5,9 @@ $(document).ready(function(){
     history.pushState({page: 3}, "../public/wickerFamily.html")
     history.pushState({page: 4}, "../public/projects.html")
     history.pushState({page: 5}, "../public/womenChildren.html")
-    history.pushState({page: 5}, "../public/youthProjects.html")
-    history.pushState({page: 5}, "../public/enSchools.html")
+    history.pushState({page: 6}, "../public/youthProjects.html")
+    history.pushState({page: 7}, "../public/enSchools.html")
+    history.pushState({page: 8}, "../public/involvement.html")
 
     $(window).load("../public/home.html")
 
@@ -72,6 +73,16 @@ $(document).ready(function(){
 
     $(".eastNobleSchools").click(function(){
         url = "../public/enSchools.html"
+        window.location.replace(url)
+    })
+
+    $(".involvementTop").click(function(){
+        url = "../public/involvement.html"
+        window.location.replace(url)
+    })
+
+    $("#involvementHome").click(function(){
+        url = "../public/involvement.html"
         window.location.replace(url)
     })
 
