@@ -144,6 +144,7 @@ body {
 }
 /*/////////////////////////// Home Page ////////////////////////*/
 .background {
+  margin-top: 10px;
   display: flex;
   position: relative;
   width: 100%;
@@ -156,6 +157,7 @@ body {
 }
 
 .home-nav-bar {
+  margin-top: 10px;
   height: auto;
   width: 100%;
   background-color: rgb(249, 191, 81);
@@ -218,6 +220,7 @@ body {
   color: rgb(0, 0, 0);
   font-size: 25px;
   font-family: sans-serif;
+  margin-bottom: 5px;
 }
 
 .emailList {
@@ -600,7 +603,7 @@ body {
 }
 
 .cardContainer:hover {
-  transform: scale(2);
+  transform: scale(1.85);
   transition: 0.75s;
   z-index: 2;
 }
@@ -621,6 +624,33 @@ body {
   padding-top: 10px;
   font-size: 20px;
   font-family: sans-serif;
+}
+
+/*///////////////////////// EN Schools Page /////////////////////*/
+.eastNobleContent {
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 20px;
+  height: auto;
+  width: 70%;
+  background-color: rgba(234, 234, 234, 0.75);
+}
+
+.eastNobleContent h1 {
+  padding-left: 2%;
+  text-align: left;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.eastNobleContent p {
+  font-family: sans-serif;
+  padding-right: 2%;
+  padding-left: 2%;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
 /*//////////////////////////// Footer ///////////////////////////*/
@@ -665,7 +695,7 @@ footer {
 }
 
 #socialLink {
-  padding-left: 10%;
+  padding-left: 9.25%;
 }
 
 @media (max-width: 1000px) {

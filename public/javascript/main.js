@@ -6,6 +6,7 @@ $(document).ready(function(){
     history.pushState({page: 4}, "../public/projects.html")
     history.pushState({page: 5}, "../public/womenChildren.html")
     history.pushState({page: 5}, "../public/youthProjects.html")
+    history.pushState({page: 5}, "../public/enSchools.html")
 
     $(window).load("../public/home.html")
 
@@ -61,6 +62,16 @@ $(document).ready(function(){
 
     $(".youth").click(function(){
         url = "../public/youthProjects.html"
+        window.location.replace(url)
+    })
+
+    $(".enSchoolsTop").click(function(){
+        url = "../public/enSchools.html"
+        window.location.replace(url)
+    })
+
+    $(".eastNobleSchools").click(function(){
+        url = "../public/enSchools.html"
         window.location.replace(url)
     })
 
