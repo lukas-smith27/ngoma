@@ -800,6 +800,7 @@ body {
   height: auto;
   width: 70%;
   background-color: rgba(234, 234, 234, 0.75);
+  margin-bottom: 20px;
 }
 
 .involvementContent h1 {
@@ -816,10 +817,12 @@ body {
   flex-wrap: wrap;
   margin: 0 auto;
   margin-top: 5px;
+  justify-content: center;
 }
 
 .involveOption {
-  width: 31%;
+  justify-content: center;
+  width: 28%;
   height: auto;
   margin: 15px 15px;
 }
@@ -832,7 +835,7 @@ body {
 }
 
 .optionBanner h3 {
-  padding-top: 4.5%;
+  padding-top: 5%;
   font-size: 20px;
   font-family: sans-serif;
   text-align: center;
@@ -844,11 +847,32 @@ body {
 }
 
 .involveOption p {
+  margin: 0 auto;
   margin-top: 2px;
   padding-left: 2%;
   padding-right: 2%;
-  font-size: 20px;
+  font-size: 18px;
   font-family: sans-serif;
+  padding-bottom: 10px;
+}
+
+.involveOption #facebook {
+  padding-top: 10px;
+  background-color: rgb(66, 103, 178);
+  text-decoration: none;
+  margin: 0 auto;
+  width: 25px;
+}
+
+.involveOption #facebook {
+  padding-top: 5px;
+  text-align: right;
+  padding-right: 4px;
+  font-size: 23px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  width: 25px;
+  height: 25px;
 }
 
 #joinButton {
@@ -858,9 +882,145 @@ body {
   text-align: center;
   background-color: rgb(237, 97, 36);
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 25px;
+  margin-top: 20px;
 }
 
+#joinButton:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
+}
+
+#donateButton {
+  width: 30%;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgb(237, 97, 36);
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+#donateButton a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.creditCards {
+  margin-top: 15px;
+  justify-content: center;
+  text-align: center;
+}
+
+#cCard {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+@media (max-width: 1000px) {
+  .involvementContainer {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .involveOption {
+    margin: 0 auto;
+    flex-direction: column;
+    width: 65%;
+    padding-bottom: 10px;
+  }
+  #joinButton {
+    font-size: 20px;
+  }
+  #donateButton {
+    font-size: 20px;
+  }
+}
+/*//////////////////////////// Join Page ///////////////////////*/
+.joinBackground img {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.joinContent {
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 20px;
+  height: auto;
+  width: 70%;
+  background-color: rgba(234, 234, 234, 0.75);
+  margin-bottom: 20px;
+}
+
+.joinContent h1 {
+  padding-left: 1%;
+  text-align: left;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.joinContent p {
+  font-family: sans-serif;
+  padding-left: 1%;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.inputSection {
+  width: 98%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.inputSection label {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.inputSection input {
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#sendButton {
+  margin: 0 auto;
+  width: 70px;
+  height: 40px;
+  font-size: 25px;
+  font-family: sans-serif;
+  background-color: rgb(0, 0, 0);
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 15px;
+}
+
+@media (max-width: 1000px) {
+  .joinContent {
+    width: 80%;
+  }
+  .inputSection {
+    margin: 0 auto;
+  }
+  .inputSection input {
+    width: 98%;
+  }
+}
 /*//////////////////////////// Footer ///////////////////////////*/
 footer {
   position: absolute;

@@ -8,6 +8,7 @@ $(document).ready(function(){
     history.pushState({page: 6}, "../public/youthProjects.html")
     history.pushState({page: 7}, "../public/enSchools.html")
     history.pushState({page: 8}, "../public/involvement.html")
+    history.pushState({page: 9}, "../public/join.html")
 
     $(window).load("../public/home.html")
 
@@ -83,6 +84,16 @@ $(document).ready(function(){
 
     $("#involvementHome").click(function(){
         url = "../public/involvement.html"
+        window.location.replace(url)
+    })
+
+    $(".joinTop").click(function(){
+        url = "../public/join.html"
+        window.location.replace(url)
+    })
+
+    $("#joinButton").click(function(){
+        url = "../public/join.html"
         window.location.replace(url)
     })
 
