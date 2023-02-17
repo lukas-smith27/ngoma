@@ -949,6 +949,162 @@ body {
   }
 }
 
+/*////////////////////////// Contact Page //////////////////////*/
+.contactContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 20px;
+  height: auto;
+  width: 70%;
+  background-color: rgb(210, 210, 210);
+  margin-bottom: 20px;
+}
+
+.contactContent h1 {
+  padding-top: 10px;
+  padding-left: 1%;
+  text-align: left;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.contactRow{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contactContent a {
+  text-align: center;
+  padding-left: 2%;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.contactContent p {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+  padding-left: 2%;
+}
+
+.contactInfo {
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contactForm {
+  justify-content: center;
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.contact {
+  margin: 0 auto;
+  justify-self: center;
+  float: left;
+  width: 75%;
+}
+
+.contact input {
+  justify-self: center;
+  width: 75%;
+  margin-bottom: 5px;
+}
+
+#contactMessage {
+  padding-bottom: 100px;
+}
+
+#submitContactForm {
+  top: 0;
+  width: 80px;
+  height: 40px;
+  padding-top: 14px;
+  background-color: rgb(249, 191, 81);
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#submitContactForm:hover {
+  background-color: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.map {
+  margin: 0 auto;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.map iframe {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .contactContent {
+    width: 85%;
+  }
+  .contactContent h1 {
+    text-align: center;
+  }
+  .contactContent p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .contactInfo {
+    width: 95%;
+    text-align: center;
+  }
+  .contactInfo a {
+    font-size: 20px;
+  }
+  .contactRow {
+    flex-direction: column;
+  }
+  .contactForm {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .contact {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .contact input {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  #submitContactForm {
+    margin: 0 auto;
+  }
+  .map {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .map iframe {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+}
+
 /*//////////////////////////// Join Page ///////////////////////*/
 .joinBackground img {
   top: 0;
@@ -969,6 +1125,7 @@ body {
 }
 
 .joinContent h1 {
+  padding-top: 10px;
   padding-left: 1%;
   text-align: left;
   font-size: 30px;
@@ -1006,7 +1163,7 @@ body {
 
 #sendButton {
   margin: 0 auto;
-  width: 70px;
+  width: 80px;
   height: 40px;
   font-size: 25px;
   font-family: sans-serif;
@@ -1014,7 +1171,7 @@ body {
   padding-top: 10px;
   color: rgb(255, 255, 255);
   text-align: center;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 @media (max-width: 1000px) {
