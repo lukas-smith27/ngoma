@@ -311,6 +311,7 @@ body {
   margin: 0 auto;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 20px;
   height: auto;
   width: 55%;
   background-color: rgb(234, 234, 234, .75);
@@ -780,10 +781,11 @@ body {
     width: 100%;
   }
   .enCards {
-    width: 100%;
+    width: 90%;
   }
   .enCards img {
     width: 95%;
+    height: 90%;
   }
   .staffBreakfast {
     width: 100%;
