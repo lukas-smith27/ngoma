@@ -61,7 +61,7 @@ body {
   z-index: 1;
   position: absolute;
   display: none;
-  width: 150%;
+  width: 100%;
   background: rgb(136, 178, 53);
   overflow: hidden;
 }
@@ -274,10 +274,10 @@ body {
   }
   .optionsContainer {
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
   }
   .options {
-    width: 25%;
+    width: 40%;
     margin: 0 auto;
   }
   .options ul {
