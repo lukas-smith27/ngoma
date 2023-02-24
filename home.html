@@ -3,19 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="refresh" content="0; url:'./contact.html'">
-        <title>CONTACT US | Ngoma Center, Inc.</title>
-        <link rel="stylesheet" href="../public/scss/styles.css" type="text/css">
+        <meta http-equiv="refresh" content="0; url:'./home.html'">
+        <title>Ngoma Center, Inc.</title>
+        <link rel="stylesheet" href="./scss/styles.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie" type="text/css">
-        <script type="text/javascript" src="../public/javascript/jQuery.js" defer></script>
-        <script type="text/javascript" src="../public/javascript/main.js" defer></script>
+        <script type="text/javascript" src="./javascript/jQuery.js" defer></script>
+        <script type="text/javascript" src="./javascript/main.js" defer></script>
     </head>
 
     <body>
         <nav class="navigation-bar">
             <div class="company">
-                <a href="./home.html" class="logo-home"><img src="../public/images/Ngoma Center Inc Logo w Black.png"></a></div>
+                <a href="./home.html" class="logo-home"><img src="./images/Ngoma Center Inc Logo w Black.png"></a></div>
             <a href="#" class="small-menu">
                 <span class="lines"></span>
                 <span class="lines"></span>
@@ -46,26 +46,56 @@
             </div>
         </nav>
 
-        <div class="contactContent">
-            <h1>CONTACT US</h1>
-            <div class="contactRow">
-                <div class="contactInfo">
-                    <a href="http://maps.apple.com/?ll=41.452232927140045,-85.34181490738271" href="https://www.google.com/maps/search/?api=1&query=41.452232927140045,-85.34181490738271" target="_blank">4268 E US Highway 6,</a><br>
-                    <a href="http://maps.apple.com/?ll=41.452232927140045,-85.34181490738271" href="https://www.google.com/maps/search/?api=1&query=41.452232927140045,-85.34181490738271" target="_blank">Kendallville, IN 46755</a>
-                    <p>Email: info@ngomacenter.com</p>
+        <div class="background">
+            <img src="./images/Ngoma Center Inc Logo w Black.png">
+        </div>
+
+        <div class="home-nav-bar">
+            <div class="optionsContainer">
+                <div class="options">
+                    <ul>
+                        <li><a href="./about.html" id="aboutHome" class="fa fa-info"></a></li>
+                        <li id="label">About</li>
+                    </ul>
                 </div>
-                <div class="contactForm">
-                    <form class="contact">
-                        <input type="text" id="contactName" placeholder="Name*"><br>
-                        <input type="text" id="contactEmail" placeholder="Email*"><br>
-                        <input type="text" id="contactSubject" placeholder="Subject"><br>
-                        <input type="text" id="contactMessage" placeholder="Message"><br>
-                        <div id="submitContactForm">Submit</div>
-                    </form>
+                <div class="options">
+                    <ul>
+                        <li><a href="./projects.html" id="projectsHome" class="fa fa-check"></a></li>
+                        <li id="label">Projects</li>
+                    </ul>
+                </div>
+                <div class="options">
+                    <ul>
+                        <li><a href="./involvement.html" id="involvementHome" class="fa fa-plus"></a></li>
+                        <li id="label">Get Involved</li>
+                    </ul>
+                </div>
+                <div class="options">
+                    <ul>
+                        <li><a id="#" class="fa fa-star"></a></li>
+                        <li id="label">Blog</li>
+                    </ul>
                 </div>
             </div>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.407692464046!2d-85.3415145!3d41.45207209999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x114d7f935284210a!2sB%26J%20Medical%20Inc!5e0!3m2!1sen!2sus!4v1673638030529!5m2!1sen!2sus" width="60%" height="700" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="homeInformation">
+            <p>Ngoma is a nonprofit Christian organization dedicated to help alleviate the suffering 
+                of children and their families throughout Northeast Indiana and around the world.
+            </p><br>
+            <p>Ngoma's mission is to increase self sufficiency by providing food, clothing, training 
+                and medical care without regard to political affiliation, religious belief, or 
+                ethnic identity.
+            </p><br>
+        </div>
+
+        <div class="emailList">
+            <p>Join our email list. Never miss an update.</p>
+            <div class="inputRowEmail">
+                <form>
+                    <input type="text" id="emailAddress">
+                    <button id="emailListSubmit">Subscribe Now</button>
+                </form>
             </div>
         </div>
     </body>

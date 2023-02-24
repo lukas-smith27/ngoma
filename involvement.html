@@ -3,19 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="refresh" content="0; url:'./projects.html'">
-        <title>PROJECTS | Ngoma Center, Inc.</title>
-        <link rel="stylesheet" href="../public/scss/styles.css" type="text/css">
+        <meta http-equiv="refresh" content="0; url:'./involvement.html'">
+        <title>GET INVOLVED | Ngoma Center, Inc.</title>
+        <link rel="stylesheet" href="./scss/styles.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie" type="text/css">
-        <script type="text/javascript" src="../public/javascript/jQuery.js" defer></script>
-        <script type="text/javascript" src="../public/javascript/main.js" defer></script>
+        <script type="text/javascript" src="./javascript/jQuery.js" defer></script>
+        <script type="text/javascript" src="./javascript/main.js" defer></script>
     </head>
 
     <body>
         <nav class="navigation-bar">
             <div class="company">
-                <a href="./home.html" class="logo-home"><img src="../public/images/Ngoma Center Inc Logo w Black.png"></a></div>
+                <a href="./home.html" class="logo-home"><img src="./images/Ngoma Center Inc Logo w Black.png"></a></div>
             <a href="#" class="small-menu">
                 <span class="lines"></span>
                 <span class="lines"></span>
@@ -46,55 +46,59 @@
             </div>
         </nav>
 
-        <div class="projectBackground">
-            <img src="../public/images/Background 3.jpg">
+        <div class="involvementContent">
+            <h1>GET INVOLVED</h1>
+            
+            <div class="involvementContainer">
+                <div class="involveOption">
+                    <div class="optionBanner">
+                        <h3>Join Our Community</h3>
+                    </div>
+                    <img src="./images/2017-09-20-PHOTO-00000026.jpg">
+                    <p>By joining our community you will stay connected with Ngoma by receiving updates about our volunteer 
+                        opportunities and financial needs. You will also receive our quarterly newsletter, full of pictures, 
+                        special events and news about our projects. We encourage you to join us.
+                    </p>
+                    <a href="./join.html"><div id="joinButton">Join</div></a>
+                </div>
+                <div class="involveOption">
+                    <div class="optionBanner">
+                        <h3>Social Networking</h3>
+                    </div>
+                    <img src="./images/2017-01-10-image-19.png">
+                    <p>Our social networking community allows users to share ideas, activities, events, and interests about 
+                        Ngoma. Connect with us on Facebook to stay informed and express your thoughts.
+                    </p>
+                    <a href="https://www.facebook.com/NgomaCenterInc/" target="_blank" class="fa fa-facebook" id="facebook"></a>
+                </div>
+                <div class="involveOption">
+                    <div class="optionBanner">
+                        <h3>Donate</h3>
+                    </div>
+                    <img src="./images/20891329_1761355587227813_1342078888_n.png">
+                    <p>100% of your donation will go to the Ngoma Center outreach fund. These funds are distributed throughout 
+                        northeast Indiana and around the world.
+                    </p>
+
+                    <div id="donateButton"><a href="#">Donate</a></div>
+                    <div class="creditCards">
+                        <a href="#" class="fa fa-cc-visa" id="cCard"></a>
+                        <a href="#" class="fa fa-cc-mastercard" id="cCard"></a>
+                        <a href="#" class="fa fa-cc-amex" id="cCard"></a>
+                        <a href="#" class="fa fa-cc-discover" id="cCard"></a>
+
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="projectsContent">
-            <img src="../public/images/EN Teacher Appreciation 4.jpg">
-            <h1>HOW WE HELP</h1>
-            <div id="projectBanner">
-                <h3>Northeast Indiana</h3>
-            </div>
-
-            <div class="projectCard">
-                <div class="projectPhotos">
-                    <a class="womenChildren"><img src="../public/images/DSC_0225_200x200.jpg"></a>
-                </div>
-                <div class="projectInfo">
-                    <a href="./womenChildren.html" class="womenChildren"><u><h3>WOMEN & CHILDREN</h3></u></a>
-                    <p>Ngoma partners with several Noble County organizations, such as Life & Family Services and 
-                        The Noble House to help families in need.
-                    </p>
-                </div>
-            </div>
-
-            <div id="underlineCards"></div>
-
-            <div class="projectCard">
-                <div class="projectPhotos">
-                    <a class="youth"><img src="../public/images/The Crew projector donation.jpg"></a>
-                </div>
-                <div class="projectInfo">
-                    <a href="./youthProjects.html" class="youth"><u><h3>YOUTH</h3></u></a>
-                    <p>Ngoma partners with the The Crew and Campus Life, in Noble County, to help support vital programs 
-                        and activities for Northeast Indiana youth.
-                    </p>
-                </div>
-            </div>
-
-            <div id="underlineCards"></div>
-
-            <div class="projectCard">
-                <div class="projectPhotos">
-                    <a class="eastNobleSchools"><img src="../public/images/ENHS Teacher App1.jpg"></a>
-                </div>
-                <div class="projectInfo">
-                    <a href="enSchools.html" class="eastNobleSchools"><u><h3>EAST NOBLE SCHOOLS</h3></u></a>
-                    <p>Ngoma partners with East Noble Schools to provide support and activities for youth and encouragement 
-                        to teachers and staff throughout the school year.
-                    </p>
-                </div>
+        <div class="emailList">
+            <p>Join our email list. Never miss an update.</p>
+            <div class="inputRowEmail">
+                <form>
+                    <input type="text" id="emailAddress">
+                    <button id="emailListSubmit">Subscribe Now</button>
+                </form>
             </div>
         </div>
     </body>
