@@ -10,15 +10,5 @@ $(document).ready(function(){
             window.location.scrollTop()
         }
     })
-
-    $($anchors).click(function(){
-        $(".links").removeClass("active")
-    })
-    $($anchors2).click(function(){
-        $(".links").removeClass("active")
-    })
-    $(".logo-home").click(function(){
-        $(".links").removeClass("active")
-    })
 })
 
