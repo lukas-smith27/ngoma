@@ -10,7 +10,7 @@
     "repositories": [
         {
             "url": "https://github.com/lukas-smith27/ngoma.git",
-            "type": "git"
+            "type": "vcs"
         }
     ],
     "require": {
