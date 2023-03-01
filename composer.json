@@ -9,7 +9,7 @@
     ],
     "repositories": [
         {
-            "url": "https://github.com/lukas-smith27/ngoma.git",
+            "url": "git@github.com:lukas-smith27/ngoma.git",
             "type": "vcs"
         }
     ],
