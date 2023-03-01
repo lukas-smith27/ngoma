@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(window).load("../public/home.html")
+    $(window).load("../public/index.html")
 
     // Menu Bars when screen is under X amount of pixels
     $(".small-menu").click(function(){
