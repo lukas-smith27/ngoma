@@ -272,6 +272,7 @@ body {
   }
   .optionsContainer {
     margin: 0 auto;
+    margin-right: 10%;
     width: 80%;
   }
   .options {
