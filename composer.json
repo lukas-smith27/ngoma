@@ -1,0 +1,13 @@
+
+{
+    "name": "hostinger/ngoma",
+    "authors": [
+        {
+            "name": "Lukas Smith",
+            "email": "lmssmith2000@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8"
+    }
+}
