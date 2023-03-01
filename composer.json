@@ -7,6 +7,12 @@
             "email": "lmssmith2000@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "url": "https://github.com/lukas-smith27/ngoma.git",
+            "type": "git"
+        }
+    ],
     "require": {
         "php": ">=8"
     }
