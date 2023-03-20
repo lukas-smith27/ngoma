@@ -4,7 +4,6 @@ $(".small-menu").click(function(){
         $(".links").addClass("active")
     } else {
         $(".links").removeClass("active")
-        window.location.scrollTop()
     }
 })
 
