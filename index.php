@@ -15,7 +15,7 @@
     <body>
         <nav class="navigation-bar">
             <div class="company">
-                <a class="logo-home"><img src="./images/Ngoma Center Inc Logo w Black.png"></a></div>
+                <a href="./index.html" class="logo-home"><img src="./images/Ngoma Center Inc Logo w Black.png"></a></div>
             <a href="#" class="small-menu">
                 <span class="lines"></span>
                 <span class="lines"></span>
@@ -23,8 +23,8 @@
             </a>
             <div class="links">   
                 <ul>
-                    <li><a class="homeTop">Home</a></li>
-                    <li><a class="aboutTop">About</a>
+                    <li><a href="./index.html" class="homeTop">Home</a></li>
+                    <li><a href="./about.html" class="aboutTop">About</a>
                         <ul>
                             <li><a href="./wickerFamily.html" class="wickerFamilyTop">The Wicker Family</a></li>
                         </ul>
