@@ -8,5 +8,18 @@ $(document).ready(function(){
             window.location.scrollTop()
         }
     })
+
+    $(".logo-home").click(function(){
+        locacation.href = "https://www.ngomacenterinc.com/index.html"
+    })
+    $(".homeTop").click(function(){
+        locacation.href = "https://www.ngomacenterinc.com/index.html"
+    })
+    $(".aboutTop").click(function(){
+        locacation.href = "https://www.ngomacenterinc.com/about.html"
+    })
+    $(".logo-home").click(function(){
+        locacation.href = "https://www.ngomacenterinc.com/index.html"
+    })
 })
 
