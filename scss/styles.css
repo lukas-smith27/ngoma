@@ -630,12 +630,6 @@ body {
   margin: 15px 15px;
 }
 
-.cardContainer:hover {
-  transform: scale(1.85);
-  transition: 0.75s;
-  z-index: 2;
-}
-
 .cardContainer figure {
   width: 280px;
 }
@@ -670,9 +664,6 @@ body {
   }
   .cardContainer figure img {
     margin-top: 10px;
-  }
-  .cardContainer:hover {
-    transform: scale(1);
   }
 }
 /*///////////////////////// EN Schools Page /////////////////////*/
@@ -1025,9 +1016,15 @@ body {
 }
 
 .contact input {
+  font-family: sans-serif;
   justify-self: center;
   width: 75%;
   margin-bottom: 5px;
+}
+
+.contact textarea {
+  width: 75%;
+  font-family: sans-serif;
 }
 
 #contactMessage {
@@ -1036,9 +1033,9 @@ body {
 
 #submitContactForm {
   top: 0;
-  width: 80px;
-  height: 40px;
-  padding-top: 14px;
+  width: auto;
+  height: auto;
+  padding: 10px;
   background-color: rgb(249, 191, 81);
   color: rgb(0, 0, 0);
   font-size: 22px;
@@ -1221,6 +1218,7 @@ footer {
 }
 
 .bottomLinks ul li {
+  margin-bottom: 5px;
   list-style: none;
 }
 
